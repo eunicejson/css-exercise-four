@@ -45,7 +45,6 @@ img {
 }
 
 
-
 @media screen and (min-width: 300px){
   .container {
     margin: 0 auto;
@@ -62,8 +61,15 @@ img {
 
   .preview {
     width: 100%;
-    margin-right: 10px;
-    margin-left: 10px;
+    min-height: 300px;
+    margin: 10 auto;
+  }
+
+  .baku {
+
+    background-image: url(../images/baku.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   img {
@@ -73,6 +79,7 @@ img {
   }
 
 }
+
 
 /*
 @media screen and (min-width: 700px){
